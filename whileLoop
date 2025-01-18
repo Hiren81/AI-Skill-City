@@ -1,0 +1,22 @@
+#Loops-For lops and while loop in python
+#activity
+#Save a tartget numer
+#Guess the number
+
+import random
+targetNumer=6
+guess=random.randrange(0,750)
+counter=0
+
+while guess!=targetNumer:
+    print("sorry,thaths not it")
+    counter= counter+1
+        #counter += 1 # Increment the counter
+    guess = random.randint(0, 750)
+    print("Guess again as your guess was ",guess)
+    
+    
+print("You got it after ",counter," tries!")
+
+#Create a repository named python
+
